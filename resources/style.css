@@ -1,0 +1,67 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.main-div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    height: 40px;
+    width: 400px;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    font-size: 17px;
+}
+
+.form{
+    width: 400px;
+    margin: 70px auto;
+    border: 1px solid black;
+    padding: 50px 0px;
+    border-radius: 5px;
+}
+
+.form input{
+    display: block;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+    height: 30px;
+    font-size: 16px;
+    padding: 0px 5px;
+}
+
+.form .btn-submit{
+    display: block;
+    width: 300px;
+    margin: auto;
+    height: 30px;
+    cursor: pointer;
+}
+
+.info{
+    color:red;
+    text-align: center;
+}
+
+/*================================================ home ===================================*/
+
+.logOut-btn{
+    padding: 5px 20px;
+    position: absolute;
+    right: 40px;
+    top: 30px;
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+    margin-top: 100px;
+}

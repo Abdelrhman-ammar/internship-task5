@@ -1,0 +1,19 @@
+CREATE DATABASE task5;
+
+CREATE TABLE users(
+    id INT(6) AUTO_INCREMENT PRIMARY KEY,
+    userName VARCHAR(50) NOT NULL UNIQUE,
+    password VARCHAR(50) NOT NULL,
+    githubId INT(6) UNIQUE
+);
+
+home page url:
+http://localhost:/task5/index.php
+
+call back url:
+http://localhost:/task5/github/register.php
+
+Client ID:
+334d1c0497cf37566efd
+Client Secret:
+918d8e1f666e5bc52c66deb8d06d91f48c35e140
